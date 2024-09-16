@@ -11,7 +11,7 @@ Este é um projeto de exemplo para iOS usando Swift 4.2. O objetivo é demonstra
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/app-teste.git
+    git clone https://github.com/brulolk/DigioProducts.git
     ```
 
 2. Navegue para o diretório do projeto:
