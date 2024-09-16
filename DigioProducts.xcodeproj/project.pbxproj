@@ -8,14 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		1548EFF72C95DA8100744FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1548EFF62C95DA8100744FB3 /* AppDelegate.swift */; };
-		1548EFF92C95DA8100744FB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1548EFF82C95DA8100744FB3 /* SceneDelegate.swift */; };
-		1548EFFB2C95DA8100744FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1548EFFA2C95DA8100744FB3 /* ViewController.swift */; };
-		1548EFFE2C95DA8100744FB3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1548EFFD2C95DA8100744FB3 /* Base */; };
 		1548F0002C95DA8200744FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1548EFFF2C95DA8200744FB3 /* Assets.xcassets */; };
 		1548F0032C95DA8200744FB3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1548F0022C95DA8200744FB3 /* Base */; };
 		1548F00E2C95DA8200744FB3 /* DigioProductsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1548F00D2C95DA8200744FB3 /* DigioProductsTests.swift */; };
 		1548F0182C95DA8200744FB3 /* DigioProductsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1548F0172C95DA8200744FB3 /* DigioProductsUITests.swift */; };
 		1548F01A2C95DA8200744FB3 /* DigioProductsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1548F0192C95DA8200744FB3 /* DigioProductsUITestsLaunchTests.swift */; };
+		158359872C9740850046F79C /* TitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 158359862C9740850046F79C /* TitleTableViewCell.xib */; };
+		158359882C9740850046F79C /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158359852C9740850046F79C /* TitleTableViewCell.swift */; };
+		158359932C97490B0046F79C /* SpotlightListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 158359922C97490B0046F79C /* SpotlightListTableViewCell.xib */; };
+		158359942C97490B0046F79C /* SpotlightListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158359912C97490B0046F79C /* SpotlightListTableViewCell.swift */; };
+		158359972C9749680046F79C /* ProductListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 158359962C9749680046F79C /* ProductListTableViewCell.xib */; };
+		158359982C9749680046F79C /* ProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158359952C9749680046F79C /* ProductListTableViewCell.swift */; };
+		1583599B2C97651A0046F79C /* CashBannerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1583599A2C97651A0046F79C /* CashBannerTableViewCell.xib */; };
+		1583599C2C97651A0046F79C /* CashBannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158359992C97651A0046F79C /* CashBannerTableViewCell.swift */; };
+		1583599E2C97BF540046F79C /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1583599D2C97BF540046F79C /* ContentViewController.swift */; };
+		158359A42C985F6D0046F79C /* StoreViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158359A32C985F6D0046F79C /* StoreViewModelTests.swift */; };
+		1588EAB92C95E40B005116B5 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1588EAB82C95E40B005116B5 /* HomeViewController.xib */; };
+		1588EABA2C95E40B005116B5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588EAB72C95E40B005116B5 /* HomeViewController.swift */; };
+		1588EABD2C95F5EC005116B5 /* ModularTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588EABC2C95F5EC005116B5 /* ModularTableView.swift */; };
+		1588EABF2C95F619005116B5 /* CellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588EABE2C95F619005116B5 /* CellController.swift */; };
+		1588EAC32C95F67B005116B5 /* SpacingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1588EAC22C95F67B005116B5 /* SpacingTableViewCell.xib */; };
+		1588EAC42C95F67B005116B5 /* SpacingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588EAC12C95F67B005116B5 /* SpacingTableViewCell.swift */; };
+		1588EACD2C95F741005116B5 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588EACC2C95F741005116B5 /* Store.swift */; };
+		1588EAD62C962890005116B5 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588EAD52C962890005116B5 /* CarouselView.swift */; };
+		1588EAD82C963209005116B5 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588EAD72C963209005116B5 /* ProductView.swift */; };
+		1588EADA2C96332C005116B5 /* ServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588EAD92C96332C005116B5 /* ServiceView.swift */; };
+		1588EADC2C96361E005116B5 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588EADB2C96361E005116B5 /* ImageLoader.swift */; };
+		1588EAE32C965D80005116B5 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588EAE22C965D80005116B5 /* APIConstants.swift */; };
+		1588EAE52C965EEA005116B5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588EAE42C965EEA005116B5 /* NetworkService.swift */; };
+		1588EAEA2C966017005116B5 /* StoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588EAE92C966017005116B5 /* StoreViewModel.swift */; };
+		1588EAEC2C9664CD005116B5 /* UIView+Skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588EAEB2C9664CD005116B5 /* UIView+Skeleton.swift */; };
+		1594D86D2C986E350038D22C /* StoreModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1594D86C2C986E350038D22C /* StoreModelTests.swift */; };
+		1594D86F2C986EE20038D22C /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1594D86E2C986EE20038D22C /* NetworkServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +62,6 @@
 /* Begin PBXFileReference section */
 		1548EFF32C95DA8100744FB3 /* DigioProducts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigioProducts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1548EFF62C95DA8100744FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1548EFF82C95DA8100744FB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1548EFFA2C95DA8100744FB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1548EFFD2C95DA8100744FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1548EFFF2C95DA8200744FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1548F0022C95DA8200744FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1548F0042C95DA8200744FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +70,33 @@
 		1548F0132C95DA8200744FB3 /* DigioProductsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigioProductsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1548F0172C95DA8200744FB3 /* DigioProductsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioProductsUITests.swift; sourceTree = "<group>"; };
 		1548F0192C95DA8200744FB3 /* DigioProductsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioProductsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		158359852C9740850046F79C /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		158359862C9740850046F79C /* TitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleTableViewCell.xib; sourceTree = "<group>"; };
+		158359912C97490B0046F79C /* SpotlightListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightListTableViewCell.swift; sourceTree = "<group>"; };
+		158359922C97490B0046F79C /* SpotlightListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpotlightListTableViewCell.xib; sourceTree = "<group>"; };
+		158359952C9749680046F79C /* ProductListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTableViewCell.swift; sourceTree = "<group>"; };
+		158359962C9749680046F79C /* ProductListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListTableViewCell.xib; sourceTree = "<group>"; };
+		158359992C97651A0046F79C /* CashBannerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashBannerTableViewCell.swift; sourceTree = "<group>"; };
+		1583599A2C97651A0046F79C /* CashBannerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CashBannerTableViewCell.xib; sourceTree = "<group>"; };
+		1583599D2C97BF540046F79C /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		158359A32C985F6D0046F79C /* StoreViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewModelTests.swift; sourceTree = "<group>"; };
+		1588EAB72C95E40B005116B5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1588EAB82C95E40B005116B5 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		1588EABC2C95F5EC005116B5 /* ModularTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularTableView.swift; sourceTree = "<group>"; };
+		1588EABE2C95F619005116B5 /* CellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellController.swift; sourceTree = "<group>"; };
+		1588EAC12C95F67B005116B5 /* SpacingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacingTableViewCell.swift; sourceTree = "<group>"; };
+		1588EAC22C95F67B005116B5 /* SpacingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpacingTableViewCell.xib; sourceTree = "<group>"; };
+		1588EACC2C95F741005116B5 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		1588EAD52C962890005116B5 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		1588EAD72C963209005116B5 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		1588EAD92C96332C005116B5 /* ServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView.swift; sourceTree = "<group>"; };
+		1588EADB2C96361E005116B5 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		1588EAE22C965D80005116B5 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		1588EAE42C965EEA005116B5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		1588EAE92C966017005116B5 /* StoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewModel.swift; sourceTree = "<group>"; };
+		1588EAEB2C9664CD005116B5 /* UIView+Skeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Skeleton.swift"; sourceTree = "<group>"; };
+		1594D86C2C986E350038D22C /* StoreModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreModelTests.swift; sourceTree = "<group>"; };
+		1594D86E2C986EE20038D22C /* NetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +147,14 @@
 		1548EFF52C95DA8100744FB3 /* DigioProducts */ = {
 			isa = PBXGroup;
 			children = (
+				1588EAE62C965F74005116B5 /* ViewModel */,
+				1588EAE12C965D5E005116B5 /* Network */,
+				1588EAD42C962871005116B5 /* Views */,
+				1588EAC52C95F6D6005116B5 /* Models */,
+				1588EAC02C95F643005116B5 /* Cells */,
+				1588EABB2C95F5D9005116B5 /* Extensions */,
+				1588EAB42C95E3BD005116B5 /* Controller */,
 				1548EFF62C95DA8100744FB3 /* AppDelegate.swift */,
-				1548EFF82C95DA8100744FB3 /* SceneDelegate.swift */,
-				1548EFFA2C95DA8100744FB3 /* ViewController.swift */,
-				1548EFFC2C95DA8100744FB3 /* Main.storyboard */,
 				1548EFFF2C95DA8200744FB3 /* Assets.xcassets */,
 				1548F0012C95DA8200744FB3 /* LaunchScreen.storyboard */,
 				1548F0042C95DA8200744FB3 /* Info.plist */,
@@ -114,6 +166,9 @@
 			isa = PBXGroup;
 			children = (
 				1548F00D2C95DA8200744FB3 /* DigioProductsTests.swift */,
+				158359A32C985F6D0046F79C /* StoreViewModelTests.swift */,
+				1594D86C2C986E350038D22C /* StoreModelTests.swift */,
+				1594D86E2C986EE20038D22C /* NetworkServiceTests.swift */,
 			);
 			path = DigioProductsTests;
 			sourceTree = "<group>";
@@ -127,6 +182,79 @@
 			path = DigioProductsUITests;
 			sourceTree = "<group>";
 		};
+		1588EAB42C95E3BD005116B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1588EAB72C95E40B005116B5 /* HomeViewController.swift */,
+				1588EAB82C95E40B005116B5 /* HomeViewController.xib */,
+				1583599D2C97BF540046F79C /* ContentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1588EABB2C95F5D9005116B5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1588EABC2C95F5EC005116B5 /* ModularTableView.swift */,
+				1588EABE2C95F619005116B5 /* CellController.swift */,
+				1588EADB2C96361E005116B5 /* ImageLoader.swift */,
+				1588EAEB2C9664CD005116B5 /* UIView+Skeleton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1588EAC02C95F643005116B5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1588EAC12C95F67B005116B5 /* SpacingTableViewCell.swift */,
+				1588EAC22C95F67B005116B5 /* SpacingTableViewCell.xib */,
+				158359852C9740850046F79C /* TitleTableViewCell.swift */,
+				158359862C9740850046F79C /* TitleTableViewCell.xib */,
+				158359912C97490B0046F79C /* SpotlightListTableViewCell.swift */,
+				158359922C97490B0046F79C /* SpotlightListTableViewCell.xib */,
+				158359952C9749680046F79C /* ProductListTableViewCell.swift */,
+				158359962C9749680046F79C /* ProductListTableViewCell.xib */,
+				158359992C97651A0046F79C /* CashBannerTableViewCell.swift */,
+				1583599A2C97651A0046F79C /* CashBannerTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1588EAC52C95F6D6005116B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1588EACC2C95F741005116B5 /* Store.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1588EAD42C962871005116B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1588EAD52C962890005116B5 /* CarouselView.swift */,
+				1588EAD72C963209005116B5 /* ProductView.swift */,
+				1588EAD92C96332C005116B5 /* ServiceView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1588EAE12C965D5E005116B5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1588EAE22C965D80005116B5 /* APIConstants.swift */,
+				1588EAE42C965EEA005116B5 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1588EAE62C965F74005116B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1588EAE92C966017005116B5 /* StoreViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +265,7 @@
 				1548EFEF2C95DA8100744FB3 /* Sources */,
 				1548EFF02C95DA8100744FB3 /* Frameworks */,
 				1548EFF12C95DA8100744FB3 /* Resources */,
+				158359A22C985DEC0046F79C /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -231,9 +360,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				158359972C9749680046F79C /* ProductListTableViewCell.xib in Resources */,
+				158359872C9740850046F79C /* TitleTableViewCell.xib in Resources */,
 				1548F0002C95DA8200744FB3 /* Assets.xcassets in Resources */,
+				158359932C97490B0046F79C /* SpotlightListTableViewCell.xib in Resources */,
+				1583599B2C97651A0046F79C /* CashBannerTableViewCell.xib in Resources */,
+				1588EAC32C95F67B005116B5 /* SpacingTableViewCell.xib in Resources */,
 				1548F0032C95DA8200744FB3 /* Base in Resources */,
-				1548EFFE2C95DA8100744FB3 /* Base in Resources */,
+				1588EAB92C95E40B005116B5 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +387,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		158359A22C985DEC0046F79C /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint não encontrado. Instale o SwiftLint para ver avisos de linting.\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1548EFEF2C95DA8100744FB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1548EFFB2C95DA8100744FB3 /* ViewController.swift in Sources */,
+				158359942C97490B0046F79C /* SpotlightListTableViewCell.swift in Sources */,
+				1588EAD82C963209005116B5 /* ProductView.swift in Sources */,
+				1588EADA2C96332C005116B5 /* ServiceView.swift in Sources */,
+				1588EAE32C965D80005116B5 /* APIConstants.swift in Sources */,
+				1588EADC2C96361E005116B5 /* ImageLoader.swift in Sources */,
+				1588EABD2C95F5EC005116B5 /* ModularTableView.swift in Sources */,
+				1588EAE52C965EEA005116B5 /* NetworkService.swift in Sources */,
 				1548EFF72C95DA8100744FB3 /* AppDelegate.swift in Sources */,
-				1548EFF92C95DA8100744FB3 /* SceneDelegate.swift in Sources */,
+				1588EACD2C95F741005116B5 /* Store.swift in Sources */,
+				1583599E2C97BF540046F79C /* ContentViewController.swift in Sources */,
+				158359882C9740850046F79C /* TitleTableViewCell.swift in Sources */,
+				158359982C9749680046F79C /* ProductListTableViewCell.swift in Sources */,
+				1588EAEC2C9664CD005116B5 /* UIView+Skeleton.swift in Sources */,
+				1583599C2C97651A0046F79C /* CashBannerTableViewCell.swift in Sources */,
+				1588EAD62C962890005116B5 /* CarouselView.swift in Sources */,
+				1588EABA2C95E40B005116B5 /* HomeViewController.swift in Sources */,
+				1588EABF2C95F619005116B5 /* CellController.swift in Sources */,
+				1588EAC42C95F67B005116B5 /* SpacingTableViewCell.swift in Sources */,
+				1588EAEA2C966017005116B5 /* StoreViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +439,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				158359A42C985F6D0046F79C /* StoreViewModelTests.swift in Sources */,
 				1548F00E2C95DA8200744FB3 /* DigioProductsTests.swift in Sources */,
+				1594D86F2C986EE20038D22C /* NetworkServiceTests.swift in Sources */,
+				1594D86D2C986E350038D22C /* StoreModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +471,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1548EFFC2C95DA8100744FB3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1548EFFD2C95DA8100744FB3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1548F0012C95DA8200744FB3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -368,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +591,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -446,9 +612,9 @@
 				INFOPLIST_FILE = DigioProducts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +623,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.DigioProducts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -473,9 +639,9 @@
 				INFOPLIST_FILE = DigioProducts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +650,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.DigioProducts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
